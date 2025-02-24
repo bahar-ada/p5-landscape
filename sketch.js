@@ -175,36 +175,20 @@ function draw() {
   curveVertex(220,440)
   endShape()
 
+  //bushes
+  fill(170, 179, 150)
+  beginShape()
+  curveVertex(500,600)
+  curveVertex(430,550)
+  curveVertex(440,600)
+  curveVertex(600,550)  
+  curveVertex(600,580)
+  curveVertex(600,600)
+  endShape(CLOSE)
+
   
   //grasses
   fill(98, 111, 71)
-  beginShape()
-  curveVertex(480,560)
-  curveVertex(490,560)
-  curveVertex(490,580)
-  curveVertex(480,560)
-  endShape()
-
-  beginShape()
-  curveVertex(460,560)
-  curveVertex(460,560)
-  curveVertex(490,580)
-  curveVertex(480,560)
-  endShape()
-
-  beginShape()
-  curveVertex(510,560)
-  curveVertex(530,560)
-  curveVertex(520,580)
-  curveVertex(550,580)
-  endShape()
-
-  beginShape()
-  curveVertex(500,570)
-  curveVertex(500,570)
-  curveVertex(460,580)
-  curveVertex(500,580)
-  endShape()
 
   beginShape()
   curveVertex(510,600)
@@ -242,14 +226,14 @@ function draw() {
   endShape()
 
   beginShape()
-  curveVertex(580,560)
+  curveVertex(580,600)
   curveVertex(590,560)
   curveVertex(590,580)
   curveVertex(580,560)
   endShape()
 
   beginShape()
-  curveVertex(530,590)
+  curveVertex(530,600)
   curveVertex(520,585)
   curveVertex(540,560)
   curveVertex(550,570)
@@ -284,14 +268,14 @@ function draw() {
   endShape()
 
   beginShape()
-  curveVertex(580,560)
+  curveVertex(580,600)
   curveVertex(580,560)
   curveVertex(590,580)
   curveVertex(580,580)
   endShape()
 
   beginShape()
-  curveVertex(420,560)
+  curveVertex(420,600)
   curveVertex(440,560)
   curveVertex(460,580)
   curveVertex(480,580)
@@ -345,5 +329,19 @@ function draw() {
   curveVertex(510,600)
   curveVertex(480,580)
   endShape()
+
+  //flowers
+  fill(255, 157, 35)
+  circle(570, 565, 3)
+  circle(560, 560, 3)
+  circle(540, 565, 3)
+  circle(520, 560, 3)
+  circle(455, 565, 3)
+  circle(590, 560, 3)
+
+  fill(255, 217, 95)
+  circle(450, 565, 3)
+  circle(515, 565, 3)
+  circle(580, 570, 3)
 
 }
