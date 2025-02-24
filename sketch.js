@@ -177,19 +177,11 @@ function draw() {
 
   //bushes
   fill(170, 179, 150)
-  beginShape()
-  curveVertex(500,600)
-  curveVertex(430,550)
-  curveVertex(440,600)
-  curveVertex(600,550)  
-  curveVertex(600,580)
-  curveVertex(600,600)
-  endShape(CLOSE)
+  bezier(410, 600,  450, 550,  460, 550,  600, 600); 
 
   
   //grasses
   fill(98, 111, 71)
-
   beginShape()
   curveVertex(510,600)
   curveVertex(520,560)
